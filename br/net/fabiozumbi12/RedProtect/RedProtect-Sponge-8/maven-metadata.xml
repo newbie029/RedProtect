@@ -3,10 +3,10 @@
   <groupId>br.net.fabiozumbi12.RedProtect</groupId>
   <artifactId>RedProtect-Sponge-8</artifactId>
   <versioning>
-    <release>7.5.3</release>
+    <release>7.5.5</release>
     <versions>
-      <version>7.5.3</version>
+      <version>7.5.5</version>
     </versions>
-    <lastUpdated>20180816080721</lastUpdated>
+    <lastUpdated>20181118201620</lastUpdated>
   </versioning>
 </metadata>
