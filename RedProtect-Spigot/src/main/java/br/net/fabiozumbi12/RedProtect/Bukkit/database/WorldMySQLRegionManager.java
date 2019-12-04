@@ -69,7 +69,7 @@ public class WorldMySQLRegionManager implements WorldRegionManager {
         PreparedStatement st = null;
         try {
             if (!this.checkTableExists()) {
-                Connection con = DriverManager.getConnection(this.url + this.dbname + this.reconnect + (RedProtect.get().config.configRoot().mysql.ssl ? "&useSSL=true&requireSSL=true":"")
+                Connection con = DriverManager.getConnection(this.url + this.dbname + this.reconnect + (RedProtect.get().config.configRoot().mysql.ssl ? "&useSSL=true&requireSSL=true":"&useSSL=false")
                         , RedProtect.get().config.configRoot().mysql.user_name, RedProtect.get().config.configRoot().mysql.user_pass);
 
                 st = con.prepareStatement("CREATE TABLE `" + tableName + "` " +
